@@ -11,7 +11,7 @@ if discriminant > 0:
     x2 = (-b - math.sqrt(discriminant)) / (2 * a)
 elif discriminant == 0:
     x = -b / (2 * a)
-    print(f"The root is {x}")
+    print(f"yagona ildiz: {x}")
 else:
     realPart = -b / (2*a)
     imaginaryPart = math.sqrt(-discriminant) / (2*a)
